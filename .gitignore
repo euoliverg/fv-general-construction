@@ -1,0 +1,7 @@
+# Working files (not part of the public site)
+.impeccable/
+.claude/
+assets/src/
+PRODUCT.md
+DESIGN.md
+node_modules/
