@@ -265,7 +265,7 @@ ul, ol { padding: 0; list-style: none; }
 @media (prefers-reduced-motion: no-preference) {
   .stamp { animation: stamp-in 560ms var(--ease-out) 450ms both; }
   @keyframes stamp-in {
-    from { opacity: 0; transform: translate(-50%, -50%) rotate(-4deg) scale(1.7); }
+    from { opacity: 0.65; transform: translate(-50%, -50%) rotate(-4deg) scale(1.35); }
     60% { opacity: 1; }
     to { opacity: 1; transform: translate(-50%, -50%) rotate(-14deg) scale(1); }
   }
@@ -543,7 +543,7 @@ ul, ol { padding: 0; list-style: none; }
   @media (prefers-reduced-motion: no-preference) {
     .stamp { animation-name: stamp-in-m; }
     @keyframes stamp-in-m {
-      from { opacity: 0; transform: rotate(-4deg) scale(1.7); }
+      from { opacity: 0.65; transform: rotate(-4deg) scale(1.35); }
       60% { opacity: 1; }
       to { opacity: 1; transform: rotate(-14deg) scale(1); }
     }
